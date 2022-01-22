@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>PUNKFLIX / Clone-Netflix / Project</title>
+        <link rel="stylesheet" href="style/style.css">
+        <!--Link da fonte-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <!--Link do carrossel -->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1 class="logo">PUNKFLIX</h2>
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="#">Bandas</a>
+                    <a href="#">Shows</a>
+                    <a href="#">Documentários</a>
+                </nav>
+            </div>
+        </header>
+            <main>
+                <div class="filme-principal">
+                    <div class="container">
+                        <h3 class="titulo">Banda Pense</h3>
+                        <p class="descricao">A banda de Hardcore de Belo Horizonte – MG chamada Pense, formada por nomes bem conhecidos e experientes da cena mineira: Lucas Guerra (vocal), Cristiano Souza (guitarra), Judá Ramos (baixo), Ítalo Nonato (guitarra) e Charles Taylo (bateria).</p>
+                        <div class="botao">
+                            <input type="button" onclick="openInNewTab('https://www.youtube.com/watch?v=k1BhySXGyOw')" value="Assistir"> 
+                            <input type="button" onclick="openInNewTab('http://penseoficial.com.br/')" value="Mais informações">
+                        </div>
+                    </div>
+                </div>
+                <div class="carrosel-filmes">
+                    <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img class="box-filme" onclick="myPopUp()" src="img/anti-flag.jpg">
+                            </div>
+                            <div class="item">
+                                <img class="box-filme" src="img/Bad-Religion-15.jpg">
+                            </div>
+                            <div class="item">
+                                <img class="box-filme" src="img/kpAAkLrOEeqOXcb-800x450-noPad.jpg">
+                            </div>
+                            <div class="item">
+                                <img class="box-filme" src="img/zcL4BoC6Gy9gXUM59TNvbH.jpg">
+                            </div>
+                            <div class="item">
+                                <img class="box-filme" src="img/NOFX-2.jpg">
+                            </div>
+                            <div class="item">
+                                <img class="box-filme" src="img/FRENZAL-RHOMB-min.jpg">
+                            </div>
+                            <div class="item">
+                                <img class="box-filme" src="img/offspring.jpg">
+                            </div>
+                            <div class="item">
+                                <img class="box-filme" src="img/dia-verde.jpg">
+                            </div>
+                    </div>
+                </div>
+
+                
+            </main>
+        <footer>
+            <small>© 2021 <b>Felipe Gabriel Guarezi Fernandes</b>, All Rights Reserved</small>
+        </footer>
+        <script type="text/javascript" src="js/owl/jquery.min.js"></script>
+        <script type="text/javascript" src="js/owl/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

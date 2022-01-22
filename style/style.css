@@ -1,0 +1,115 @@
+
+/* padronização*/
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo*/
+body{
+    background: var(--preto);
+    font-family: 'Roboto', sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-size: 60px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+footer{
+    padding-top: 400px;
+    text-align: center;
+    color:gray;
+}
+
+
+/* Filme principal */
+
+main{
+    height: 400px;
+}
+.filme-principal{
+    font-size: 16px;
+    background: url("/img/pense_capanp.jpg");
+    height: 400px;
+    background-size: cover;
+    color:white;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.descricao{
+    font-size: 20px;
+    padding-left: 30px;
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+.titulo{
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+.filme-principal:hover{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/pense_capanp.jpg");
+}
+
+.botao{
+    padding-left: 30px;
+
+}
+input{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* secundarios */
+ .box-film{
+     height: 100%;
+     width: 100%;
+     background-size: cover;
+     display: block;
+ }
+
+ .carrosel-filmes{
+    margin-top:8px;
+}
+
+img{
+    height: 250px;
+    width: 80px;
+}
